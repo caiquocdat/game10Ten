@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bo.ae.gameten10.HistoryActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/theme_main"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:src="@drawable/img_logo_ten_10"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyTenRcv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_above="@id/backImg"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_ten_back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>

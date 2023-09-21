@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/itemRel"
+    android:background="#33FFFFFF"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/sttTv"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="1"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_marginRight="20dp"
+        android:id="@+id/pointTv"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="1000 POINT"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
